@@ -1,0 +1,307 @@
+a:link {
+    color: #000000;
+    text-decoration: none;
+}
+
+h1 {
+    border-bottom: 1px dimgray solid;
+    font: normal 18px Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+h2 {
+    border-bottom: 1px dimgray solid;
+    font: normal 16px Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+h3 {
+    border-left: 1px solid dimgray;
+    border-right: 1px solid dimgray;
+    font: normal bold 1px Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-left: 7px;
+    padding-top: 10px;
+}
+
+    h3.post-title.entry.title {
+        border-bottom: 0;
+        border-left: 0;
+        border-right: 0;
+        color: #000000;
+        font: bold 18px Calibri;
+        font-weight: bolder;
+        letter-spacing: 1px;
+        margin: 0 0 0 0;
+        overflow: hidden;
+        padding-bottom: 10px;
+        padding-top: 0;
+    }
+    h3.post-title, .comments h4 {
+        border-bottom: 0;
+        border-left: 0;
+        border-right: 0;
+        color: #47120e;
+        font: bold 30px Calibri;
+        font-weight: normal;
+        letter-spacing: 1px;
+        margin: 0 0 0 -5px;
+        padding-bottom: 10px;
+        padding-top: 0;
+    }
+
+hr {
+
+    border: 1px #47120e inset;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+h4 {
+    border-left: 1px solid gainsboro;
+    border-right: 1px solid gainsboro;
+    font: normal bold 12px Arial, Helvetica, sans-serif;
+    padding-bottom: 5px;
+    padding-left: 7px;
+    padding-top: 7px;
+}
+
+p {
+    color: #000000;
+    font: normal 12px Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    margin-left: 2px;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+.main-outer {
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 1px;
+    position: relative;
+}
+
+#BlogSearch1 > div {
+    margin-bottom: 0;
+    padding-bottom: 5px;
+}
+
+#BlogSearch1 > h2 { margin-bottom: 5px; }
+
+.gsc-search-button {
+    font: normal bold 8px Arial, Helvetica, sans-serif;
+    height: 18px;
+    margin: 0;
+    padding: -1px;
+    width: 44px;
+}
+
+.main-inner {
+    border-bottom: 1px solid black;
+    padding: 0 15px;
+}
+
+.fauxcolumn-right-outer .fauxcolumn-inner {
+    border-left: 0 solid black;
+    border-right: 0 solid black;
+    position: absolute;
+}
+
+.fauxcolumn-left-outer {
+    border-left: 1px solid black;
+    border-right: 0 solid black;
+    position: absolute;
+}
+
+.post-footer-line {
+    margin-left: -13px;
+    padding-top: 10px;
+    position: relative;
+}
+
+/* ReSharper disable once Html.TagNotResolved */
+
+#post-footer-line post-footer-line-1 { padding-top: 20px; }
+
+.post-footer-line > *:last-child {
+    margin-right: 0;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-top: 5px;
+}
+
+#blog-pager {
+    clear: inherit;
+    float: left;
+    margin: 1em 0;
+    overflow: hidden;
+}
+
+.feed-links {
+    bottom: 10px;
+    display: none;
+    position: relative;
+    text-align: center;
+}
+
+/*.post-body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 12px;
+    margin: 1px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}*/
+
+.content-outer {
+    /* ReSharper disable once UnknownCssVendorExtension */
+    -goog-ms-box-shadow: 0 0 10 #333333;
+    -moz-box-shadow: 0 0 40px #000000;
+    -moz-box-shadow: 0 0 40px rgba(0, 0, 0, .15);
+    -webkit-box-shadow: 0 0 5px #000000;
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .15);
+    border: 1px solid black;
+    box-shadow: 0 40px #000000;
+    box-shadow: 0 40px rgba(0, 0, 0, .15);
+    margin-bottom: 1px;
+}
+
+.BlogArchive #ArchiveList ul {
+    border-width: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    list-style: none;
+    list-style-image: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-inner .column-center-inner {
+    margin-right: -2px;
+    padding: 0 0 0 0;
+}
+
+div.widget > h2, div.widget h2.title {
+    color: #000000;
+    font: normal bold 11px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+    margin: 10px 10px 10px 0;
+    width: 100%;
+
+}
+
+.main-outer {
+    border-top: 1px solid black;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+}
+
+.main-inner { padding: 0 0 0 0; }
+
+.section {
+    margin: 0 20px;
+    position: relative;
+}
+
+h2.date-header {
+    border-bottom: 0;
+    color: #000000;
+    font: normal 10px Arial;
+    font-variant: small-caps;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+h3.post-title, .comments h4 {
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    color: #47120e;
+    font: bold 18px Calibri;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin: 0 0 0 -5px;
+    padding-bottom: 10px;
+    padding-top: 0;
+}
+
+.fauxcolumn-right-outer .fauxcolumn-inner { border-left: 1px solid black; }
+
+html body .region-inner {
+    margin-left: 0;
+    max-width: 100%;
+    min-width: 0;
+    width: auto;
+}
+
+#header {
+    color: #47120e;
+    font: 48px Rock Salt;
+    margin: 10px 0 10px -5px;
+    padding: 0;
+}
+
+.post-footer-line {
+    margin-left: -13px;
+    padding: 1px;
+    position: relative;
+}
+
+.post-header { margin: 5px 0 0 0; }
+
+.post { margin: 0; }
+
+.post-footer {
+    background-color: #4a4a4a;
+    border-bottom: 1px solid black;
+    color: #000000;
+    font-size: 12px;
+    margin: 10px 0 0 0;
+    padding: 0 0 0 13px;
+    position: relative;
+}
+
+#Attribution1 > div {
+    margin-top: -20px;
+    position: absolute;
+    text-align: left;
+}
+
+.footer-inner { padding: 0; }
+
+.footer-3 { clear: initial; }
+
+.blog-feeds {
+    margin-top: -22px;
+    padding-bottom: 0;
+    position: relative;
+}
+
+#comment-footer {
+    clear: inherit;
+    left: 2px;
+}
+
+.gsc-input {
+    background-color: #47120e;
+    border: 2px lightgray solid;
+    color: gainsboro;
+    font-size: 10px;
+    height: 12px;
+    margin-right: 5px;
+    padding-right: 5px;
+}
+
+.gsc-search-button {
+    font: bold 10px Calibri;
+    height: 20px;
+    margin: 0;
+    width: 55px;
+}
