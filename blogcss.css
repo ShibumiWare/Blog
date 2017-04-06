@@ -1,5 +1,5 @@
 ﻿
-.content-inner {
+.region-inner.header-inner{
 padding:90px:10px:10px:10px;
 }
 .main-inner .columns {
@@ -330,7 +330,8 @@ html body .region-inner {
 
 .gsc-input {
     background-color: #47120e;
-    border: 2px lightgray solid;
+    border: 2px #00446f solid;
+    border: 2px rgba(  0, 68,111,1) solid;
     color: gainsboro;
     font-size: 10px;
     height: 12px;
