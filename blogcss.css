@@ -24,6 +24,15 @@ h2 {
     padding-top: 10px;
 }
 
+    h2.date-header {
+        border-bottom: 0;
+        color: #000000;
+        font: normal 12px Calibri;
+        font-variant: small-caps;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
 h3 {
     font: normal bold 1px Calibri;
     margin: 0;
@@ -77,7 +86,7 @@ h4 {
 
 p {
     color: #000000;
-    font: normal 14px Calibri;   
+    font: normal 14px Calibri;
     margin-bottom: 10px;
     margin-left: 2px;
     margin-right: 20px;
@@ -199,7 +208,7 @@ p {
 
 div.widget > h2, div.widget h2.title {
     color: #000000;
-    font: normal bold 11px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+    font: normal bold 11px Calibri, Tahoma, Helvetica, FreeSans, sans-serif;
     margin: 10px 10px 10px 0;
     width: 100%;
 }
@@ -223,7 +232,7 @@ div.widget > h2, div.widget h2.title {
 h2.date-header {
     border-bottom: 0;
     color: #000000;
-    font: normal 10px Arial;
+    font: normal 10px Calibri;
     font-variant: small-caps;
     margin-bottom: 10px;
     margin-top: 10px;
