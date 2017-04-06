@@ -31,7 +31,7 @@ h3 {
     padding-top: 10px;
 }
 
-    /*h3.post-title entry-title {
+    /*h3.post-title.entry-title {
         border-bottom: 0;
         border-left: 0;
         border-right: 0;
@@ -43,9 +43,9 @@ h3 {
         overflow: hidden;
         padding-bottom: 10px;
         padding-top: 0;*/
-    }
+    /*}*/
 
-    h3.post-title, .comments h4 {
+    <h3.post-title, .comments h4 {
         border-bottom: 0;
         border-left: 0;
         border-right: 0;
