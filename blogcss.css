@@ -1,3 +1,9 @@
+
+.main-inner .columns {
+    padding-left: 0px;
+    padding-right: 300px;
+    padding-top: 95px;
+}
 body {
     font-family: Calibri;
     font-size: 12px;
@@ -10,14 +16,14 @@ a:link {
 }
 
 h1 {
-    border-bottom: 1px dimgray solid;
+    border-bottom: 1px #0071BA solid;
     font: normal 18px Calibri;
     padding-bottom: 10px;
     padding-top: 10px;
 }
 
 h2 {
-    border-bottom: 1px dimgray solid;
+    border-bottom: 1px #0071BA solid;
     font: normal 16px Calibri;
     margin-bottom: 5px;
     padding-bottom: 10px;
@@ -34,7 +40,6 @@ h2 {
         margin-top: 10px;
     }
 
-
 h3 {
     font: normal bold 1px Calibri;
     margin: 0;
@@ -47,7 +52,7 @@ h3 {
         border-bottom: 0;
         border-left: 0;
         border-right: 0;
-        color: pink;
+        color: black;
         font: bold 18px Calibri;
         font-weight: bolder;
         letter-spacing: 1px;
