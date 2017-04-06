@@ -1,4 +1,7 @@
-
+﻿
+.content-inner {
+padding:90px:10px:10px:10px;
+}
 .main-inner .columns {
     padding-left: 0px;
     padding-right: 300px;
