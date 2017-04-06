@@ -1,7 +1,7 @@
- body {
-        font-family: Calibri;
-        font-size: 12px;
-    }
+body {
+    font-family: Calibri;
+    font-size: 12px;
+}
 
 a:link {
     color: gainsboro;
@@ -31,7 +31,7 @@ h3 {
     padding-top: 10px;
 }
 
-    h3.post-title.entry.title {
+    /*h3.post-title entry-title {
         border-bottom: 0;
         border-left: 0;
         border-right: 0;
@@ -42,13 +42,15 @@ h3 {
         margin: 0 0 0 0;
         overflow: hidden;
         padding-bottom: 10px;
-        padding-top: 0;
+        padding-top: 0;*/
     }
+
     h3.post-title, .comments h4 {
         border-bottom: 0;
         border-left: 0;
         border-right: 0;
-        color: #47120e;
+        /*color: #47120e;*/
+        color: red;
         font: bold 30px Calibri;
         font-weight: normal;
         letter-spacing: 1px;
@@ -58,7 +60,6 @@ h3 {
     }
 
 hr {
-
     border: 1px #47120e inset;
     margin-bottom: 3px;
     margin-top: 3px;
@@ -96,7 +97,9 @@ p {
     padding-bottom: 5px;
 }
 
-#BlogSearch1 > h2 { margin-bottom: 5px; }
+#BlogSearch1 > h2 {
+    margin-bottom: 5px;
+}
 
 .gsc-search-button {
     font: normal bold 8px Calibri;
@@ -131,7 +134,9 @@ p {
 
 /* ReSharper disable once Html.TagNotResolved */
 
-#post-footer-line post-footer-line-1 { padding-top: 20px; }
+#post-footer-line post-footer-line-1 {
+    padding-top: 20px;
+}
 
 .post-footer-line > *:last-child {
     margin-right: 0;
@@ -196,7 +201,6 @@ div.widget > h2, div.widget h2.title {
     font: normal bold 11px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
     margin: 10px 10px 10px 0;
     width: 100%;
-
 }
 
 .main-outer {
@@ -206,7 +210,9 @@ div.widget > h2, div.widget h2.title {
     position: relative;
 }
 
-.main-inner { padding: 0 0 0 0; }
+.main-inner {
+    padding: 0 0 0 0;
+}
 
 .section {
     margin: 0 20px;
@@ -235,7 +241,9 @@ h3.post-title, .comments h4 {
     padding-top: 0;
 }
 
-.fauxcolumn-right-outer .fauxcolumn-inner { border-left: 1px solid black; }
+.fauxcolumn-right-outer .fauxcolumn-inner {
+    border-left: 1px solid black;
+}
 
 html body .region-inner {
     margin-left: 0;
@@ -257,9 +265,13 @@ html body .region-inner {
     position: relative;
 }
 
-.post-header { margin: 5px 0 0 0; }
+.post-header {
+    margin: 5px 0 0 0;
+}
 
-.post { margin: 0; }
+.post {
+    margin: 0;
+}
 
 .post-footer {
     background-color: #4a4a4a;
@@ -277,9 +289,13 @@ html body .region-inner {
     text-align: left;
 }
 
-.footer-inner { padding: 0; }
+.footer-inner {
+    padding: 0;
+}
 
-.footer-3 { clear: initial; }
+.footer-3 {
+    clear: initial;
+}
 
 .blog-feeds {
     margin-top: -22px;
